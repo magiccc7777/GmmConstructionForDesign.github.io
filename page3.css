@@ -1,0 +1,258 @@
+.home{
+  transform: translate(200px,1px);
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(97, 94, 94);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+  width: 28px;
+  height: 20px;
+  a {
+    color: rgb(10, 10, 10);
+    text-decoration: underline;
+  }
+}
+
+.home :hover{
+  background-color: gray;
+  color: gold;
+}
+
+.about{
+  transform: translate(75px,-33px);
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(97, 94, 94);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+  width: 28px;
+  height: 20px;
+}
+
+.about :hover{
+  background-color: gray;
+  color: gold;
+}
+
+.pg3{
+  transform: translate(175px,-83px);
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(97, 94, 94);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+  width: 50px;
+  height: 20px;
+}
+
+.pg3 :hover{
+  background-color: gray;
+  color: gold;
+}
+
+.pg2{
+  transform: translate(300px,-132px);
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(97, 94, 94);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+  width: 50px;
+  height: 20px;
+}
+
+.pg2 :hover{
+  background-color: gray;
+  color: gold;
+}
+
+.contact{
+  transform: translate(425px,-181.5px);
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(97, 94, 94);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+  width: 55px;
+  height: 20px;
+  a {
+    color: rgb(10, 10, 10);
+    text-decoration: underline;
+  }
+}
+
+.contact :hover{
+  background-color: gray;
+  color: gold;
+}
+
+.login{
+  transform: translate(725px,-179px);
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(97, 94, 94);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+  width: 60px;
+  height: 20px;
+  a {
+    color: rgb(10, 10, 10);
+    text-decoration: underline;
+  }
+}
+
+.login :hover{
+  background-color: gray;
+  color: gold;
+}
+
+.pg1{
+  transform: translate(700px,-180px);
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(97, 94, 94);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+  width: 50px;
+  height: 20px;
+  a {
+    color: rgb(10, 10, 10);
+    text-decoration: underline;
+  }
+}
+
+.pg1 :hover{
+  background-color: gray;
+  color: gold;
+}
+
+.sell{
+  transform: translate(740px,-179px);
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(97, 94, 94);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+  width: 40px;
+  height: 20px;
+  a {
+    color: rgb(10, 10, 10);
+    text-decoration: underline;
+  }
+}
+
+.sell :hover{
+  background-color: gray;
+  color: gold;
+}
+
+.privacy{
+  transform: translate(0px,-185px);
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(10, 10, 10);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+  width: 100px;
+  height: 20px;
+}
+
+.privacy :hover{
+  background-color: gray;
+  color: gold;
+}
+
+.search{
+  transform: translate(680px,-140px);
+}
+
+.testt{
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.paragraf{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#all {
+}
+
+body {
+  background-image: url(interioor.PNG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
+
+.paragraf {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#all {
+  background-color: rgba(203, 199, 199, 0.579);
+  height: 1000px;
+  transform: translate(0px,-10px);
+  width: 1600px;
+}
+
+#authLink{
+  transform: translate(725px,-179px);
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(97, 94, 94);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+  width: 60px;
+  height: 20px;
+}
+
+#authLink :hover{
+  background-color: gray;
+  color: gold;
+}
+
+#back a {
+  color: rgb(253, 253, 253);
+  text-decoration: none;
+}
+
+#back :hover {
+  background-color: rgb(4, 4, 4);
+  color: gold;
+}
+
+#back a:hover {
+  background-color: rgb(4, 4, 4);
+  color: gold;
+}

@@ -1,0 +1,559 @@
+#back{
+display: flex;
+gap: 20px;
+
+}.home{
+  transform: translate();
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(97, 94, 94);
+  color: rgb(246, 243, 243);
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+width: 28px;
+height: 20px;
+
+}
+
+
+
+.about{
+  transform: translate();
+
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(97, 94, 94);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+width: 28px;
+height: 20px;
+}
+
+
+
+
+.pg3{
+  transform: translate();
+  
+
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(97, 94, 94);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+width: 50px;
+height: 20px;
+}
+
+
+
+
+
+.pg2{
+  transform: translate();
+  
+
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(97, 94, 94);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+width: 50px;
+height: 20px;
+}
+
+
+.pg2 :hover{
+
+
+  background-color: gray;
+  color: gold;
+  
+
+
+}
+.contact{
+  transform: translate();
+
+
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(97, 94, 94);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+width: 55px;
+height: 20px;
+a {
+  color: rgb(10, 10, 10);
+  text-decoration: underline;
+}
+}
+
+
+
+.contact :hover{
+
+
+  background-color: gray;
+  color: gold;
+  
+
+}
+
+
+
+
+
+.login{
+  transform: translate();
+
+
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(97, 94, 94);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+width: 60px;
+height: 20px;
+a {
+  color: rgb(10, 10, 10);
+  text-decoration: underline;
+}
+}
+
+
+
+.login :hover{
+
+
+  background-color: gray;
+  color: gold;
+  
+
+}
+
+
+.pg1{
+  transform: translate();
+ 
+
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(97, 94, 94);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+width: 50px;
+height: 20px;
+a {
+  color: rgb(10, 10, 10);
+  text-decoration: underline;
+}
+}
+
+
+
+.pg1 :hover{
+
+
+  background-color: gray;
+  color: gold;
+  
+
+
+}
+
+
+.sell{
+  transform: translate();
+
+
+
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(97, 94, 94);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+width: 40px;
+height: 20px;
+a {
+  color: rgb(10, 10, 10);
+  text-decoration: underline;
+}
+}
+
+
+
+.sell :hover{
+
+
+  background-color: gray;
+  color: gold;
+  
+
+
+
+}
+.search{
+  transform: translate(680px,-140px);
+
+
+
+
+}
+.testt{
+background-color: rgb(0, 0, 0,0.3);
+
+
+
+}
+
+.paragraf{
+background-color: rgb(0, 0, 0,0,5);
+
+
+
+}
+#all{
+
+}
+.privacy{
+transform: translate(-170px,0px);
+ 
+
+display: inline-block;
+padding: 10px 20px;
+background-color: rgb(97, 94, 94);
+color: white;
+text-decoration: none;
+border-radius: 8px;
+margin: 5px;
+transition: 0.3s;
+width: 100px;
+height: 20px;
+}
+
+
+.privacy :hover{
+
+
+background-color: gray;
+color: gold;
+
+
+
+}
+
+
+#authLink{
+transform: translate();
+
+
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(97, 94, 94);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+width: 60px;
+height: 20px;
+}
+
+
+#authLink :hover{
+
+
+  background-color: gray;
+  color: gold;
+  
+
+}
+#back{
+transform: translate(180px,0px);
+
+}
+#back a {
+  color: rgb(253, 253, 253);
+  text-decoration: none;
+}
+
+#back :hover {
+  background-color: rgb(4, 4, 4);
+  color: gold;
+}
+#back a:hover {
+  background-color: rgb(4, 4, 4);
+  color: gold;
+}
+
+
+
+
+
+body{
+background-image: url(IMG_٢٠٢٥٠٤٠١_٠٤٣٦٣٩.jpg);
+background-color: black;
+background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+color:white ;
+
+}
+
+
+.all {
+  background-image: url(Magic.PNG);
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  transition: 2s;
+  animation: bg-change 10s infinite;
+
+  width: 100%;              /* خلي العنصر ياخد عرض الشاشة بالكامل */
+  max-width: 100vw;         /* مايزودش عن عرض الفيو */
+  height: auto;             /* خليه يكبر حسب المحتوى */
+  min-height: 300px;        /* بس حطله أقل ارتفاع لو حابب */
+  
+  border: 10px solid white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  z-index: 10;
+  box-sizing: border-box;   /* عشان البوردر مايزودش العرض */
+}
+
+
+
+
+
+.welcome{
+transform: translate(500px,0px);
+
+
+
+}
+.pic1{
+transform: translate(0px,20px);
+border: 10px solid white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* ظل علشان يباين أكتر */
+    border-radius: 20px; /* اختياري، شكل ناعم */
+    z-index: 10;
+width: 700px ;
+height: 448px; ;
+
+}
+.pic2{
+
+transform: translate(800px,-480px);
+border: 10px solid white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* ظل علشان يباين أكتر */
+    border-radius: 20px; /* اختياري، شكل ناعم */
+    z-index: 10;
+width: 700px ;
+
+}
+.pic3{
+transform: translate(0,-400px);
+border: 10px solid white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* ظل علشان يباين أكتر */
+    border-radius: 20px; /* اختياري، شكل ناعم */
+    z-index: 10;
+width: 700px ;
+height: 375px; ;
+
+}
+.pic4{
+transform: translate(790px,-850px);
+border: 10px solid white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* ظل علشان يباين أكتر */
+    border-radius: 20px; /* اختياري، شكل ناعم */
+    z-index: 10;
+width: 700px ;
+height: 380px; 
+
+
+
+
+}
+.interior{
+transform: translate(300px,20px);
+display: inline-block;
+padding: 10px 20px;
+background-color: rgb(86, 80, 80);
+color: white;
+text-decoration: none;
+border-radius: 8px;
+margin: 5px;
+transition: 0.3s;
+width: 50px;
+height: 20px;
+a{color: rgb(253, 253, 253);
+  text-decoration: none;
+}
+
+}
+.interior :hover{
+
+
+background-color: rgb(128,128,128);
+color: gold;
+
+
+
+}
+
+
+.exetrior{
+transform: translate(1100px,-500px);
+display: inline-block;
+padding: 10px 20px;
+background-color: rgb(97, 94, 94);
+color: white;
+text-decoration: none;
+border-radius: 8px;
+margin: 5px;
+transition: 0.3s;
+width: 50px;
+height: 20px;
+}
+
+
+.exetrior :hover{
+
+
+background-color: rgb(128,128,128);
+color: gold;
+
+
+
+}
+
+
+
+
+.landscape{
+transform: translate(270px,-410px);
+display: inline-block;
+padding: 10px 20px;
+background-color: rgb(97, 94, 94);
+color: white;
+text-decoration: none;
+border-radius: 8px;
+margin: 5px;
+transition: 0.3s;
+width: 70px;
+height: 20px;
+}
+
+
+.landscape :hover{
+
+
+background-color: rgb(128,128,128);
+color: gold;
+
+
+
+}
+
+
+
+
+.furniture{
+
+transform: translate(1075px,-866.5px);
+display: inline-block;
+padding: 10px 20px;
+background-color: rgb(97, 94, 94);
+color: white;
+text-decoration: none;
+border-radius: 8px;
+margin: 5px;
+transition: 0.3s;
+width: 70px;
+height: 20px;
+}
+
+
+.furniture :hover{
+
+
+background-color: rgb(128,128,128);
+color: gold;
+
+
+
+}
+
+ @keyframes bg-change {
+    0% { background-image: url('Capture.PNG2.PNG'); }
+    33% { background-image: url('Capture.PNG\ JBYVK.PNG\ NFF.PNG'); }
+    66% { background-image: url('Capture.PNG\ pkfaO.PNG'); }
+    100% { background-image: url('Capture.PNG2.PNG'); }
+  }
+  @keyframes all {
+    0% { background-image: url('Capture.PNG\ opp.PNG'); }
+    33% { background-image: url('Capture.PNGJVSJ.PNG'); }
+    66% { background-image: url('Capture1.PNG'); }
+    100% { background-image: url('Capture.PNG\ opp.PNG'); }
+  }
+  .phone{
+transform: translate(600px,-800px);
+width: 300px;
+display: inline-block;
+padding: 10px 20px;
+background-color: rgb(97, 94, 94);
+color: white;
+text-decoration: none;
+border-radius: 8px;
+margin: 5px;
+transition: 0.3s;
+}
+
+
+.phone :hover{
+
+
+background-color: rgb(128,128,128);
+color: gold;
+
+ 
+}
+#ell a {
+  color: rgb(253, 253, 253);
+  text-decoration: none;
+}
+
+#ell :hover {
+  background-color: rgb(4, 4, 4);
+  color: gold;
+}
+#ell a:hover {
+  background-color: rgb(4, 4, 4);
+  color: gold;
+}

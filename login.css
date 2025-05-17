@@ -1,0 +1,355 @@
+.home{
+  transform: translate(0px,-320px);
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(97, 94, 94);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+width: 28px;
+height: 20px;
+}
+
+
+.home :hover{
+
+
+  background-color: gray;
+  color: gold;
+  
+}
+.about{
+  transform: translate(75px,-33px);
+
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(97, 94, 94);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+width: 28px;
+height: 20px;
+}
+
+
+.about :hover{
+
+
+  background-color: gray;
+  color: gold;
+  
+}
+
+.pg3{
+  transform: translate(175px,-83px);
+  
+
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(97, 94, 94);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+width: 50px;
+height: 20px;
+}
+
+
+.pg3 :hover{
+
+
+  background-color: gray;
+  color: gold;
+  
+}
+
+
+.pg2{
+  transform: translate(300px,-132px);
+  
+
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(97, 94, 94);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+width: 50px;
+height: 20px;
+}
+
+
+.pg2 :hover{
+
+
+  background-color: gray;
+  color: gold;
+  
+
+
+}
+.contact{
+  transform: translate(425px,-181.5px);
+
+
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(97, 94, 94);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+width: 60px;
+height: 20px;
+}
+
+
+.contact :hover{
+
+
+  background-color: gray;
+  color: gold;
+  
+
+}
+
+
+
+
+
+.login{
+  transform: translate(540px,-319px);
+
+
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(97, 94, 94);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+width: 60px;
+height: 20px;
+}
+
+
+.login :hover{
+
+
+  background-color: gray;
+  color: gold;
+  
+
+}
+
+
+.pg1{
+  transform: translate(510px,-319px);
+ 
+
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(97, 94, 94);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+width: 50px;
+height: 20px;
+}
+
+
+.pg1 :hover{
+
+
+  background-color: gray;
+  color: gold;
+  
+
+
+}
+
+
+.sell{
+  transform: translate(460px,-319px);
+
+
+
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(97, 94, 94);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+width: 40px;
+height: 20px;
+}
+
+
+  .sign{
+    transform: translate(720px,-20px);
+
+
+
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    margin: 5px;
+    transition: 0.3s;
+width: 45px;
+height: 20px;
+}
+  
+  
+  .sign :hover{
+
+  
+    background-color: gray;
+    color: gold;
+    
+
+
+
+  }
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  background-image: url(IMG_٢٠٢٥٠٤٠١_٠٤٣٦٣٩.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.signup-container {
+  background: white;
+  transform: translate(-200px,0px);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  width: 320px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.signup-container h2 {
+  margin-bottom: 20px;
+}
+
+.signup-container input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.signup-container button {
+  width: 100%;
+  padding: 10px;
+  background: #4facfe;
+  border: none;
+  color: white;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.signup-container button:hover {
+  background: #00c6fb;
+}
+.log{
+display: inline-block;
+  transform: translate(-8px,100px);
+padding: 10px 20px;
+  background-color: rgb(97, 94, 94);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+width: 50px;
+height: 20px;
+}
+
+
+.log :hover{
+
+
+  background-color: gray;
+  color: gold;
+  
+}
+
+
+#back{
+display: flex;
+  gap: 10px; 
+transform: translate(-20px,0px);
+
+
+}
+.privacy{
+transform: translate(-300px,-330px);
+ 
+
+display: inline-block;
+padding: 10px 20px;
+background-color: rgb(97, 94, 94);
+color: white;
+text-decoration: none;
+border-radius: 8px;
+margin: 5px;
+transition: 0.3s;
+width: 100px;
+height: 20px;
+}
+
+
+.privacy :hover{
+
+
+background-color: gray;
+color: gold;
+
+
+
+}
+#back a {
+  color: rgb(253, 253, 253);
+  text-decoration: none;
+}
+
+#back :hover {
+  background-color: rgb(4, 4, 4);
+  color: gold;
+
+}
+#back a:hover {
+  background-color: rgb(4, 4, 4);
+  color: gold;
+}

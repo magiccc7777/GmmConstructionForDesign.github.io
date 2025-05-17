@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <title>صفحة الملف الشخصي</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 400px;
+      margin: 50px auto;
+      padding: 10px;
+      direction: rtl;
+    }
+    label, input {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+    input[type="text"] {
+      padding: 8px;
+    }
+    button {
+      padding: 10px 20px;
+      margin-top: 15px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    #message {
+      margin-top: 15px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h2>الملف الشخصي</h2>
+  
+  <label for="username">اسم المستخدم:</label>
+  <input type="text" id="username" />
+
+  <label for="email">البريد الإلكتروني:</label>
+  <input type="text" id="email" disabled />
+
+  <label for="phone">رقم الهاتف:</label>
+  <input type="text" id="phone" disabled />
+
+  <button id="saveBtn">حفظ التعديلات</button>
+  <button id="logoutBtn" style="background:#f44336; color:white;">تسجيل خروج</button>
+
+  <div id="message"></div>
+
+  <script>
+    // جلب بيانات المستخدم من localStorage وعرضها
+    const userData = JSON.parse(localStorage.getItem('user'));
+    const usernameInput = document.getElementById('username');
+    const emailInput = document.getElementById('email');
+    const phoneInput = document.getElementById('phone');
+    const message = document.getElementById('message');
+
+    if (!userData) {
+      // لو مفيش بيانات مستخدم محشورة يرجع للصفحة الرئيسية
+      alert('لم يتم تسجيل الدخول! سيتم تحويلك للصفحة الرئيسية.');
+      window.location.href = 'login.html'; // أو الصفحة الرئيسية
+    } else {
+      usernameInput.value = userData.username;
+      emailInput.value = userData.email;
+      phoneInput.value = userData.phone;
+    }
+
+    document.getElementById('saveBtn').addEventListener('click', () => {
+      const newUsername = usernameInput.value.trim();
+
+      if (newUsername === '') {
+        message.style.color = 'red';
+        message.textContent = 'الرجاء إدخال اسم مستخدم صحيح.';
+        return;
+      }
+
+      // تحديث الاسم وحفظه في localStorage
+      userData.username = newUsername;
+      localStorage.setItem('user', JSON.stringify(userData));
+      localStorage.setItem('loggedInUser', newUsername); // لتحديث اسم المستخدم المسجل الدخول
+
+      message.style.color = 'green';
+      message.textContent = 'تم حفظ التعديلات بنجاح.';
+    });
+
+    document.getElementById('logoutBtn').addEventListener('click', () => {
+      // إزالة حالة تسجيل الدخول والعودة للصفحة الرئيسية أو صفحة اللوج ان
+      localStorage.removeItem('loggedInUser');
+      window.location.href = 'login.html'; // عدل الرابط لو حابب
+    });
+  </script>
+</body>
+</html>
