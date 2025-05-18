@@ -355,4 +355,21 @@ height: 20px;
   background-attachment: scroll;
   
 }
+.pg1{
+transform: translate(150px,-120px);
+
+
+
+}
+ 
+.sell{
+  transform: translate(200px,-120px);
+
+
+
+}
+#authLink{
+
+   transform: translate(180px,-120px);
+}
 }

@@ -941,7 +941,7 @@ height: 20px;
 text-align: center;
 
 }
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   #back {
   margin-right: 90px;
   gap: 1px;
@@ -958,8 +958,34 @@ overflow-x: hidden;
 }
 
   #back div {
-    /* عدل هنا */
+   
   }
+*/
+@media (max-width: 768px) {
+  body {
+  background-size: contain;
+  background-position: center center;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  
+}
+.pg1{
+transform: translate(-600px,50px);
+
+
+
+}
+ 
+.sell{
+  transform: translate(-600px,50px);
+
+
+
+}
+#authLink{
+
+   transform: translate(-600px,50px);
+}
 
   .container {
    top: 10%;
@@ -968,26 +994,49 @@ overflow-x: hidden;
     width: 25%;
   
   }
-  
+.home{
+transform: translate(-150px);
+
+
+}
+.about{
+transform: translate(-150px);
+
+
+}
+.pg3{
+transform: translate(-150px);
+
+}
+.pg2{
+transform: translate(-150px);
+
+}
+.contact{
+transform: translate(-600px,50px);
+
+}
+}
+  /*
 
   .first {
-    /* عدل هنا */
+    
   }
 
   .first h1 {
-    /* عدل هنا */
+    
   }
 
   .us {
-    /* عدل هنا */
+    
   }
 
   h3 {
-    /* عدل هنا */
+   
   }
 
   p {
-    /* عدل هنا */
+    
   }
 
 }

@@ -23,3 +23,10 @@ document.addEventListener('DOMContentLoaded', function() {
     authLink.href = 'login.html';
   }
 });
+window.onload = function() {
+  const firstText = document.querySelector('.pg2');
+  
+  if (firstText) {
+    firstText.scrollIntoView();
+  }
+};

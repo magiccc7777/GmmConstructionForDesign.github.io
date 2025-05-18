@@ -585,9 +585,11 @@ color: gold;
 
 @media (max-width: 768px) {
   body{
-    background-size: contain;
-    overflow-x: hidden;
-  background-repeat: repeat;
+    
+    background-image: url(tall.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   }
 
   .all {

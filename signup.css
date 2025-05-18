@@ -377,11 +377,39 @@ width: 200px;
 
 }
 @media (max-width: 768px) {
-  body{
-    
-    
+  body {
+  background-size: cover;
+  background-position:  center center ;
   background-repeat: repeat;
-  
-
-  }
+  background-attachment: scroll;
+  background-image: url(IMG_٢٠٢٥٠٤٠١_٠٤٣٦٣٩.jpg);
 }
+
+     .pg1{
+transform: translate(80px,-320px);
+
+
+
+}
+ 
+.sell{
+  transform: translate(20px,-320px);
+
+
+
+}
+#authLink{
+
+   transform: translate(-16px,-100px);
+  
+}
+.contact{
+transform: translate(16px,-100px);
+
+
+}
+.home{
+transform: translate(0%,-400px);
+
+}
+  }

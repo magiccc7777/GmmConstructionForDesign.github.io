@@ -1,3 +1,5 @@
+
+
 document.addEventListener('DOMContentLoaded', function() {
   const authLink = document.getElementById('authLink');
   
@@ -23,3 +25,10 @@ document.addEventListener('DOMContentLoaded', function() {
     authLink.href = 'login.html';
   }
 });
+window.onload = function() {
+  const firstText = document.querySelector('.contact');
+  
+  if (firstText) {
+    firstText.scrollIntoView();
+  }
+};
