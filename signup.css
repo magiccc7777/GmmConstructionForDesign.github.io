@@ -362,3 +362,26 @@ color: gold;
   background-color: rgb(4, 4, 4);
   color: gold;
 }
+@media (max-width: 768px) {
+.login-container{
+width: 200px;
+
+
+
+}
+
+
+
+
+
+
+}
+@media (max-width: 768px) {
+  body{
+    
+    
+  background-repeat: repeat;
+  
+
+  }
+}

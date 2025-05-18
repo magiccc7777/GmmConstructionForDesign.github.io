@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // لو فيه حد مسجل دخوله فعلاً، وديه على الهوم
   const loggedInUser = localStorage.getItem('loggedInUser');
   if (loggedInUser) {
-    window.location.href = 'home.html';
+    window.location.href = 'index.html';
     return;
   }
 
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
       message.textContent = 'Login successful ✅';
 
       setTimeout(() => {
-        window.location.href = 'home.html';
+        window.location.href = 'index.html';
       }, 1000);
     } else {
       message.style.color = 'red';

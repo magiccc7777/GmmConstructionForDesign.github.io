@@ -295,7 +295,9 @@ background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 color:white ;
-
+width: auto;
+  height: auto;
+  object-fit: cover;
 }
 .paragraf{
 background-color: rgb(0, 0, 0,0,5);
@@ -348,4 +350,13 @@ height: 20px;
 #back a:hover {
   background-color: rgb(4, 4, 4);
   color: gold;
+}
+@media (max-width: 768px) {
+  body {
+  background-size: contain;
+  background-position: center center;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  
+}
 }

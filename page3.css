@@ -256,4 +256,12 @@ body {
   background-color: rgb(4, 4, 4);
   color: gold;
 }
-
+@media (max-width: 768px) {
+  body {
+  background-size: contain;
+  background-position: center center;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  
+}
+}

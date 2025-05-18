@@ -353,3 +353,76 @@ color: gold;
   background-color: rgb(4, 4, 4);
   color: gold;
 }
+@media (max-width: 768px) {
+  .home {
+   
+  }
+
+  .about {
+    /* هنا تكتب اللي عايزه */
+  }
+
+  .pg3 {
+    /* هنا تكتب اللي عايزه */
+  }
+
+  .pg2 {
+    /* هنا تكتب اللي عايزه */
+  }
+
+  .contact {
+    /* هنا تكتب اللي عايزه */
+  }
+
+  .login {
+    /* هنا تكتب اللي عايزه */
+  }
+
+  .pg1 {
+    /* هنا تكتب اللي عايزه */
+  }
+
+  .sell {
+    /* هنا تكتب اللي عايزه */
+  }
+
+  .sign {
+    /* هنا تكتب اللي عايزه */
+  }
+
+  .log {
+    /* هنا تكتب اللي عايزه */
+  }
+
+  .privacy {
+    /* هنا تكتب اللي عايزه */
+  }
+
+  
+    #back{
+ 
+
+
+
+    }
+
+
+  
+  
+  .signup-container {
+  
+ 
+ }
+ 
+}
+@media (max-width: 768px) {
+  body {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-image: url(IMG_٢٠٢٥٠٤٠١_٠٤٣٦٣٩.jpg);
+}
+
+    
+  }

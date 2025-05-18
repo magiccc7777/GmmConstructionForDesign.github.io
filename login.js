@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
   // لو فيه حد مسجل دخول فعلاً، نوديه مباشرة على الهوم
   if (localStorage.getItem('loggedInUser')) {
-    window.location.href = 'home.html';
+    window.location.href = 'index.html';
     return;
   }
 
@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function () {
     message.textContent = 'Signup successful! Redirecting to home...';
 
     setTimeout(() => {
-      window.location.href = 'home.html';
+      window.location.href = 'index.html';
     }, 1500);
   });
 });

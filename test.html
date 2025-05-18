@@ -1,77 +1,225 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-   
-    <title>GMM CONISTRUCTION</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="test.css">
-    <meta name="description" content=".....">
-<script src="home.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GMM CONSTRUCTION</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            background-image: url(IMG_٢٠٢٥٠٤٠١_٠٤٣٦٣٩.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            min-width: 1200px; /* ثابت العرض */
+            overflow-x: auto; /* شريط تمرير أفقي لو الشاشة أصغر */
+        }
 
+        #back {
+            display: flex;
+            gap: 10px;
+            transform: translate(-20px, 0px);
+        }
 
+        #back a, #back div {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: rgb(97, 94, 94);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            margin: 5px;
+            transition: 0.3s;
+            white-space: nowrap;
+            font-size: 14px;
+            line-height: 20px;
+            user-select: none;
+        }
 
+        #back a:hover, #back div:hover {
+            background-color: gray;
+            color: gold;
+        }
 
+        .home {
+            transform: translate(0px, -320px);
+            width: 28px;
+            height: 20px;
+        }
 
+        .about {
+            transform: translate(75px, -33px);
+            width: 28px;
+            height: 20px;
+        }
 
+        .pg3 {
+            transform: translate(175px, -83px);
+            width: 50px;
+            height: 20px;
+        }
+
+        .pg2 {
+            transform: translate(300px, -132px);
+            width: 50px;
+            height: 20px;
+        }
+
+        .contact {
+            transform: translate(425px, -181.5px);
+            width: 60px;
+            height: 20px;
+        }
+
+        .login {
+            transform: translate(540px, -319px);
+            width: 60px;
+            height: 20px;
+        }
+
+        .pg1 {
+            transform: translate(510px, -319px);
+            width: 50px;
+            height: 20px;
+        }
+
+        .sell {
+            transform: translate(460px, -319px);
+            width: 40px;
+            height: 20px;
+        }
+
+        .sign {
+            transform: translate(720px, -20px);
+            width: 45px;
+            height: 20px;
+            background-color: black;
+        }
+
+        /* Hover for buttons with space after class name fixed */
+        .home:hover,
+        .about:hover,
+        .pg3:hover,
+        .pg2:hover,
+        .contact:hover,
+        .login:hover,
+        .pg1:hover,
+        .sell:hover,
+        .sign:hover {
+            background-color: gray;
+            color: gold;
+        }
+
+        .signup-container {
+            background: white;
+            transform: translate(-200px, 0px);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            width: 320px;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .signup-container h2 {
+            margin-bottom: 20px;
+        }
+
+        .signup-container input {
+            display: block;
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        .signup-container button {
+            width: 100%;
+            padding: 10px;
+            background: #4facfe;
+            border: none;
+            color: white;
+            font-size: 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .signup-container button:hover {
+            background: #00c6fb;
+        }
+
+        .log {
+            display: inline-block;
+            transform: translate(-8px, 100px);
+            padding: 10px 20px;
+            background-color: rgb(97, 94, 94);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            margin: 5px;
+            transition: 0.3s;
+            width: 50px;
+            height: 20px;
+        }
+
+        .log:hover {
+            background-color: gray;
+            color: gold;
+        }
+
+        .privacy {
+            transform: translate(-300px, -330px);
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: rgb(97, 94, 94);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            margin: 5px;
+            transition: 0.3s;
+            width: 100px;
+            height: 20px;
+        }
+
+        .privacy:hover {
+            background-color: gray;
+            color: gold;
+        }
+    </style>
 </head>
 <body>
-    <div class="all">
-    <a href=""></a>
-   <a href=""></a>
-   <a href=""></a>
-   <a href=""></a>
-   <a href=""></a>
-   <a href=""></a>
-   <a href=""></a>
-   <a href=""></a>
-   
-   
-  <div id="back">
-  <div class="privacy"><a href="privacy.html">Privacy Policy</a></div>
-  <div class="home"><a href="home.html">Home</a></div>
-  <div class="about"><a href="about.html">About</a></div>
-  <div class="pg3"><a href="page3.html">Interior</a></div>
-  <div class="pg2"><a href="page2.html">Exterior</a></div>
-  <div class="contact"><a href="contact.html">Landscape</a></div>
-  <div class="pg1"><a href="page1.html">Furniture</a></div>
-  <a href="login.html" id="authLink">Sign Up</a>
-  <div class="sell"><a href="sell.html">Contact</a></div>
+
+<div id="back">
+    <div class="privacy"><a href="privacy.html">Privacy Policy</a></div>
+    <div class="home"><a href="index.html">Home</a></div>
+    <div class="about"><a href="about.html">About</a></div>
+    <div class="pg3"><a href="page3.html">Interior</a></div>
+    <div class="pg2"><a href="page2.html">Exetrior</a></div>
+    <div class="contact"><a href="contact.html">Landscape</a></div>
+    <div class="pg1"><a href="page1.html">Furniture</a></div>
+    <a href="login.html" id="authLink" class="login">Sign Up</a>
+    <div class="sell"><a href="sell.html">Contact</a></div>
 </div>
-   
-   
-   
 
-
-</form>
-<div class="welcome"><H1>Welcome To GMM Conistruction</H1></div>
+<div class="signup-container">
+    <h2>Sign Up</h2>
+    <form id="signupForm">
+        <input type="text" id="username" name="username" placeholder="Username" />
+        <input type="email" id="email" name="email" placeholder="Email" />
+        <input type="text" id="phone" name="phone" placeholder="Phone" />
+        <input type="password" id="password" name="password" placeholder="Password" />
+        <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password" />
+        <button type="submit">Sign Up</button>
+        <div id="message"></div>
+    </form>
+    <div class="log"><a href="signup.html">Log In</a></div>
 </div>
-<div class="pic1"><img src="Capture.PNG pkfaO.PNG" width="700"><br></div>
- <div class="interior">   <a href="page3.html">Interior</a><br></div>
 
-    <div class="pic2"><img src="Capture.PNG2.PNG" width="700" height="435"></div><br>
-<div class="exetrior"><a href="page2.html">Extrior</a></div><br></div>
-  <div class="pic3"><img src="Capture.PNGJVSJ.PNG" width="700px"></div><br>
- <div class="landscape"> <a href="contact.html">Landscape</a></div><br></div>
-  <div class="pic4"><img src="Capture.PNG JBYVK.PNG" width="700px"></div><br>
- <div class="furniture"> <a href="page1.html">Furniture</a></div><br></div>
-
-<div class="phone">
-    <h2>           Contact Us</h2>
-    <h3><a href="tel:+201010516504">tel:+201010516504</a>
-</h3> <h3><a href="email:mohamedgamal@gmail.com">email:mohamedgamal@gmail.com</a></h3></div>
-  
-    <section></section>
-    <section></section>
-    <section></section>
-    <hr>
-
-
-
-
-
-
-
-    <script src="home.js"></script>
 </body>
 </html>

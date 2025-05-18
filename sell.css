@@ -398,3 +398,12 @@ height: 20px;
   background-color: rgb(4, 4, 4);
   color: gold;
 }
+@media (max-width: 768px) {
+  body {
+  background-size: cover;
+  background-position: center center center;
+  
+  background-attachment: scroll;
+  
+}
+}

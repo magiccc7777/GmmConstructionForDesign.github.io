@@ -347,3 +347,12 @@ height: 20px;
 }
 
 .about{}
+@media (max-width: 768px) {
+  body {
+  background-size: contain;
+  background-position: center center;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  
+}
+}

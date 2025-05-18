@@ -324,10 +324,36 @@ color:white ;
 
 }
 
-
 .all {
+  width: 100vw; /* عرض كامل الشاشة */
+  height: 300px; /* ارتفاع ثابت مناسب للاب توب */
+  
+  background-image: url('Capture.PNG2.PNG'); /* أول صورة للأنيميشن */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+  background-color: rgba(123, 122, 122, 0.47); /* لون خلفية شفاف فاتح */
+  color: white;
+  
+  border: 10px solid white;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  z-index: 10;
+  
+  animation: bg-change 15s infinite alternate ease-in-out;
+  transition: background-image 1.5s ease-in-out;
+  background-attachment: fixed;
+}
+
+
+
+
+
+/*.all {
   background-image: url(Magic.PNG);
-  background-color: black;
+  background-color: rgba(123, 122, 122, 0.473);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -336,16 +362,15 @@ color:white ;
   transition: 2s;
   animation: bg-change 10s infinite;
 
-  width: 100vw;       /* العرض يملى عرض الشاشة */
-  height: 300px;      /* خلي الارتفاع زي ما تحب */
-
+  width: 100vw;       
+  height: 300px;      
   border: 10px solid white;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   border-radius: 20px;
   z-index: 10;
   box-sizing: border-box;
 }
-
+*/
 
 
 
@@ -557,3 +582,143 @@ color: gold;
   background-color: rgb(4, 4, 4);
   color: gold;
 }
+
+@media (max-width: 768px) {
+  body{
+    background-size: contain;
+    overflow-x: hidden;
+  background-repeat: repeat;
+  }
+
+  .all {
+    height: 200px; /* ارتفاع أقل للموبايل */
+    background-size: contain; /* عشان الصورة تبان كاملة بدون تقطيع */
+    background-attachment: scroll; /* عشان ميبقاش ثابت في الموبايل */
+  }
+
+  .welcome {
+    transform: translate(50px, 0px);
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .welcome h1 {
+    font-size: 16px;
+    padding: 5px;
+    text-align: center;
+  transform: translate(-50px,-10px);
+  }
+
+  #back {
+    transform: translate(0, 0);
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  #back div, #back a {
+    transform: translate(0, 0) !important;
+    width: auto !important;
+    height: auto !important;
+    padding: 5px 10px !important;
+    font-size: 12px;
+  }
+
+  .pic1, .pic2, .pic3, .pic4 {
+    width: 90%;       /* عرض مرن يناسب الموبايل */
+    height: auto;     /* ارتفاع تلقائي للحفاظ على النسبة */
+    border: 10px solid white;  /* نفس سماكة البوردر */
+    border-radius: 20px;       /* تحافظ على نفس الشكل */
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    margin: 10px auto;         /* وسط الصورة ويقلل الفراغ */
+    transform: none !important; /* يشيل أي ترانسفورم مزعج */
+    padding: 0;                /* تأكد إن مفيش padding زائد */
+    display: block;            /* يخلي الصورة بلوك عشان تأخذ المساحة مظبوط */
+    box-sizing: border-box;;
+  }
+
+  .interior,
+  .exetrior,
+  .landscape,
+  .furniture {
+    transform: translate(0, 0);
+    width: auto;
+    font-size: 12px;
+    margin: 5px auto;
+    display: block;
+    text-align: center;
+  }
+
+  .phone {
+    transform: translate(0, 0);
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .phone h2, .phone h3 {
+    font-size: 14px;
+  }
+
+  .pic2,
+  .pic4,
+  #ell {
+    transform: none;
+  }
+}
+@media (max-width: 768px) {
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .pic1, .pic2, .pic3, .pic4 {
+    width: 90%;       /* عرض مرن يناسب الموبايل */
+    height: auto;     /* ارتفاع تلقائي للحفاظ على النسبة */
+    border: 10px solid white;  /* نفس سماكة البوردر */
+    border-radius: 20px;       /* تحافظ على نفس الشكل */
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    margin: 10px auto;         /* وسط الصورة ويقلل الفراغ */
+    transform: none !important; /* يشيل أي ترانسفورم مزعج */
+    padding: 0;                /* تأكد إن مفيش padding زائد */
+    display: block;            /* يخلي الصورة بلوك عشان تأخذ المساحة مظبوط */
+    box-sizing: border-box;
+  }
+
+  .interior,
+  .exetrior,
+  .landscape,
+  .furniture {
+    font-size: 14px;
+    text-align: center;
+    margin: 5px 0;
+  }
+
+  .welcome h1 {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .phone h2,
+  .phone h3 {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .pic1 {
+    width: 90%;  /* خليها أصغر من باقي الصور */
+    height: 225px;
+    border: 10px solid white;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    margin: 10px auto;
+    transform: none !important;
+    padding: 0;
+    display: block;
+    box-sizing: border-box;
+  }
+}
+

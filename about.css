@@ -1,4 +1,10 @@
-#back{
+
+
+
+
+
+
+ #back{
 display: flex;
 gap: 20px;
 
@@ -466,5 +472,522 @@ height: 20px;
 .talk{
 text-align: center;
 
+
+} وده السي اس اس #back{
+display: flex;
+gap: 20px;
+
+}.home{
+  transform: translate();
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(97, 94, 94);
+  color: rgb(246, 243, 243);
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+width: 28px;
+height: 20px;
+
+}
+
+
+
+.about{
+  transform: translate();
+
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(97, 94, 94);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+width: 28px;
+height: 20px;
+}
+
+
+
+
+.pg3{
+  transform: translate();
+  
+
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(97, 94, 94);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+width: 50px;
+height: 20px;
+}
+
+
+
+
+
+.pg2{
+  transform: translate();
+  
+
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(97, 94, 94);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+width: 50px;
+height: 20px;
+}
+
+
+.pg2 :hover{
+
+
+  background-color: gray;
+  color: gold;
+  
+
+
+}
+.contact{
+  transform: translate();
+
+
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(97, 94, 94);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+width: 55px;
+height: 20px;
+a {
+  color: rgb(10, 10, 10);
+  text-decoration: underline;
+}
+}
+
+
+
+.contact :hover{
+
+
+  background-color: gray;
+  color: gold;
+  
+
+}
+
+
+
+
+
+.login{
+  transform: translate();
+
+
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(97, 94, 94);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+width: 60px;
+height: 20px;
+a {
+  color: rgb(10, 10, 10);
+  text-decoration: underline;
+}
+}
+
+
+
+.login :hover{
+
+
+  background-color: gray;
+  color: gold;
+  
+
+}
+
+
+.pg1{
+  transform: translate();
+ 
+
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(97, 94, 94);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+width: 50px;
+height: 20px;
+a {
+  color: rgb(10, 10, 10);
+  text-decoration: underline;
+}
+}
+
+
+
+.pg1 :hover{
+
+
+  background-color: gray;
+  color: gold;
+  
+
+
+}
+
+
+.sell{
+  transform: translate();
+
+
+
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(97, 94, 94);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+width: 40px;
+height: 20px;
+a {
+  color: rgb(10, 10, 10);
+  text-decoration: underline;
+}
+}
+
+
+
+.sell :hover{
+
+
+  background-color: gray;
+  color: gold;
+  
+
+
+
+}
+.search{
+  transform: translate(680px,-140px);
+
+
+
+
+}
+.testt{
+background-color: rgb(0, 0, 0,0.3);
+
+
+
+}
+
+.paragraf{
+background-color: rgb(0, 0, 0,0,5);
+
+
+
+}
+#all{
+
+}
+.privacy{
+transform: translate(-170px,0px);
+ 
+
+display: inline-block;
+padding: 10px 20px;
+background-color: rgb(97, 94, 94);
+color: white;
+text-decoration: none;
+border-radius: 8px;
+margin: 5px;
+transition: 0.3s;
+width: 100px;
+height: 20px;
+}
+
+
+.privacy :hover{
+
+
+background-color: gray;
+color: gold;
+
+
+
+}
+
+
+#authLink{
+transform: translate();
+
+
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(97, 94, 94);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+width: 60px;
+height: 20px;
+}
+
+
+#authLink :hover{
+
+
+  background-color: gray;
+  color: gold;
+  
+
+}
+#back{
+transform: translate(180px,0px);
+
+}
+#back a {
+  color: rgb(253, 253, 253);
+  text-decoration: none;
+}
+
+#back :hover {
+  background-color: rgb(4, 4, 4);
+  color: gold;
+}
+#back a:hover {
+  background-color: rgb(4, 4, 4);
+  color: gold;
+}
+
+
+
+
+.search{
+  transform: translate(680px,-140px);
+
+
+
+
+}
+.testt{
+background-color: rgb(0, 0, 0,0.3);
+
+
+
+}
+
+.paragraf{
+background-color: rgb(0, 0, 0,0,5);
+
+
+
+}
+#all{
+
+}
+
+
+
+
+
+
+body{
+background-image: url();
+background-color: black;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #111;           /* خلفية غامقة */
+      color: #eee;                      /* نص فاتح */
+      margin: 0;
+      padding: 0;
+   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+color:white ;
+    
+background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+color:white ;
+}
+  
+.paragraf{
+background-color: rgb(0, 0, 0,0,5);
+
+
+
+}
+#all{
+
+
+display: inline-block;
+padding: 10px 20px;
+
+color: white;
+text-decoration: none;
+border-radius: 8px;
+margin: 5px;
+
+}
+
+.first{
+
+
+color: #00ccff;
+      font-size: 1.0rem;
+      text-align: center;
+      margin-bottom: 30px;
+      text-shadow: 0 0 5px #00ccff44;
+    }
+
+
+.us{
+
+text-shadow: 0 0 5px #00ccff44;
+text-align: center;
+
+}
+#authLink{
+transform: translate(725px,-179px);
+
+
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(97, 94, 94);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  transition: 0.3s;
+width: 60px;
+height: 20px;
+}
+
+
+#authLink :hover{
+
+
+  background-color: gray;
+  color: gold;
+  
+
+}
+
+#back a {
+  color: rgb(253, 253, 253);
+  text-decoration: none;
+}
+
+#back :hover {
+  background-color: rgb(4, 4, 4);
+  color: gold;
+}
+#back a:hover {
+  background-color: rgb(4, 4, 4);
+  color: gold;
+}
+.container {
+  position: fixed; /* أو absolute حسب احتياجك */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 70px); /* بداية من تحت */
+  width: 500px;
+  margin: 0; /* مش محتاج margin لما تستخدم fixed */
+  padding: 30px;
+  background-color: #1c1c1c;
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(0, 204, 255, 0.15);
+  border: 1px solid #333;
+  opacity: 0;
+  animation: fade-slide-up 1.5s ease forwards;
+}
+
+@keyframes fade-slide-up {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, 70px); /* تحت الشاشة شوية */
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -50%); /* نص الشاشة عمودياً وأفقياً */
+  }
+}
+.talk{
+text-align: center;
+
+}
+@media (max-width: 768px) {
+  #back {
+  margin-right: 90px;
+  gap: 1px;
+overflow-x: hidden;
+transform: translate(100px,0px);
+}
+
+  #back a {
+    padding-right: 10%;
+  margin-right: 10%;
+  gap: 1px;
+overflow-x: hidden;
+  transform: translate(100px,0px);
+}
+
+  #back div {
+    /* عدل هنا */
+  }
+
+  .container {
+   top: 10%;
+    left: 30%;
+    transform: translate(-50%, 0);
+    width: 25%;
+  
+  }
+  
+
+  .first {
+    /* عدل هنا */
+  }
+
+  .first h1 {
+    /* عدل هنا */
+  }
+
+  .us {
+    /* عدل هنا */
+  }
+
+  h3 {
+    /* عدل هنا */
+  }
+
+  p {
+    /* عدل هنا */
+  }
 
 }
