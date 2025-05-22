@@ -378,32 +378,35 @@ color:white ;
 
 .welcome{
 transform: translate(500px,0px);
-
+color: rgb(255, 255, 255);
 
 
 }
 .pic1{
-transform: translate(0px,20px);
+transform: translate(10px,20px);
 border: 10px solid white;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* ظل علشان يباين أكتر */
     border-radius: 20px; /* اختياري، شكل ناعم */
     z-index: 10;
 width: 700px ;
-height: 448px; ;
+height: 390px; ;
 
 }
 .pic2{
 
-transform: translate(800px,-480px);
+transform: translate(780px,-950px);
+
 border: 10px solid white;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* ظل علشان يباين أكتر */
     border-radius: 20px; /* اختياري، شكل ناعم */
     z-index: 10;
 width: 700px ;
+height: 380px; ;
+
 
 }
 .pic3{
-transform: translate(0,-400px);
+transform: translate(0px,-300px);
 border: 10px solid white;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* ظل علشان يباين أكتر */
     border-radius: 20px; /* اختياري، شكل ناعم */
@@ -413,7 +416,7 @@ height: 375px; ;
 
 }
 .pic4{
-transform: translate(790px,-850px);
+transform: translate(800px,-750px);
 border: 10px solid white;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* ظل علشان يباين أكتر */
     border-radius: 20px; /* اختياري، شكل ناعم */
@@ -454,7 +457,7 @@ color: gold;
 
 
 .exetrior{
-transform: translate(1100px,-500px);
+transform: translate(1100px,-970px);
 display: inline-block;
 padding: 10px 20px;
 background-color: rgb(97, 94, 94);
@@ -482,7 +485,7 @@ color: gold;
 
 
 .landscape{
-transform: translate(270px,-410px);
+transform: translate(300px,-460px);
 display: inline-block;
 padding: 10px 20px;
 background-color: rgb(97, 94, 94);
@@ -511,7 +514,7 @@ color: gold;
 
 .furniture{
 
-transform: translate(1075px,-866.5px);
+transform: translate(1100px,-920px);
 display: inline-block;
 padding: 10px 20px;
 background-color: rgb(97, 94, 94);
@@ -582,7 +585,13 @@ color: gold;
   background-color: rgb(4, 4, 4);
   color: gold;
 }
+.design{
+transform: translate(5%,5%);
+color: goldenrod;
+background-color: rgba(4, 4, 4, 0.521);
+width: 40%;
 
+}
 @media (max-width: 768px) {
   body{
     
@@ -712,7 +721,7 @@ color: gold;
 @media (max-width: 768px) {
   .pic1 {
     width: 90%;  /* خليها أصغر من باقي الصور */
-    height: 225px;
+    height: 195px;
     border: 10px solid white;
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
@@ -723,4 +732,11 @@ color: gold;
     box-sizing: border-box;
   }
 }
-
+@media (max-width: 768px) {
+.design{
+text-align: center;
+transform: translate(25%);
+width: 70%;
+background-color: rgba(0, 0, 0, 0.666);
+}
+}

@@ -171,7 +171,7 @@
 }
 
 .privacy{
-  transform: translate(0px,-185px);
+  transform: translate(100px,-185px);
   display: inline-block;
   padding: 10px 20px;
   background-color: rgb(10, 10, 10);
@@ -205,19 +205,24 @@
 }
 
 body {
-  background-image: url(interioor.PNG);
+  background-image: url(livingroom_blurred_light.webp);
+  
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  color: white;
+  
 }
+
+
+
+
 
 .paragraf {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
 #all {
-  background-color: rgba(203, 199, 199, 0.579);
+  
   height: 1000px;
   transform: translate(0px,-10px);
   width: 1600px;
@@ -256,12 +261,33 @@ body {
   background-color: rgb(4, 4, 4);
   color: gold;
 }
+.img1{
+text-align: center;
+
+transform: translate(10%,-20%);
+border-radius: 5%;
+border-radius: 5%;
+border: solid black 20px;
+width: 75%;
+height: 67%;
+z-index: 10;
+box-shadow: 10% black;
+}
+.design{
+text-align: center;
+transform: translate(70%,-20%);
+color: goldenrod;
+background-color: rgba(4, 4, 4, 0.723);
+width: 40%;
+
+}
 @media (max-width: 768px) {
   body {
+    background-image: url(livingroom_blurred.webp);
   background-size: contain;
   background-position: center center;
   background-repeat: repeat;
-  background-attachment: scroll;
+  background-attachment:scroll;
   
 }
 .pg1{
@@ -282,3 +308,38 @@ transform: translate(150px,-120px);
    transform: translate(180px,-120px);
 }
 }
+@media (max-width: 768px) {
+  .img1 {
+   
+    width: 400px !important;
+    height: 230px !important;
+    border: 10px solid white;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    margin: 10px auto;
+    transform: translate(-220px,-100px)!important;
+    padding: 0;
+    display: block;
+    box-sizing: border-box;
+    max-width: 400px !important;
+    object-fit: contain; /* أو cover حسب ما تحب */
+  }
+  .img1 img{
+width: 380px;
+
+
+  }
+  .design{
+transform: translate(420px,-90px);
+width: 20%;
+
+
+  }
+  }
+
+
+
+
+
+
+
